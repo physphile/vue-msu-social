@@ -1,8 +1,8 @@
 <template>
   <div>
     <header class=" align-items-center">
-      <img src="../assets/msu_logo.jpg" alt="лого мгу" class="mr-4 align-self-stretch">
-      <img src="../assets/logo_dig_com.jpg" alt="лого цифкома" class="mr-10 align-self-stretch grayscale-img">
+      <img src="../assets/msu_logo.jpg" alt="лого мгу" class="mr-4">
+      <img src="../assets/logo_dig_com.jpg" alt="лого цифкома" class="mr-10 grayscale-img">
       <button class="common-btn">Пансионаты</button>
       <button class="common-btn">Горячие путевки</button>
       <button class="common-btn">Кто может получить</button>
@@ -23,6 +23,7 @@ header {
   align-items: center;
   padding: 44px 75px 0 75px;
   margin: 0;
+  min-width: 1745px;
 }
 img {
   width: 100px;
